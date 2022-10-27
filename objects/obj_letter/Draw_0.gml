@@ -1,0 +1,1 @@
+draw_sprite(spr_alphabet, ord(letter) - 65, x, y)
