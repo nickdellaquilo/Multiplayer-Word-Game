@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "obj_player_master",
   "spriteId": {
     "name": "Sprite3",
     "path": "sprites/Sprite3/Sprite3.yy",

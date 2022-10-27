@@ -1,6 +1,6 @@
 spd = 3
-vspd = spd
-hspd = spd
+vspd = 0
+hspd = 0
 top_limit = 0
 bottom_limit = room_height
 width  = 32
