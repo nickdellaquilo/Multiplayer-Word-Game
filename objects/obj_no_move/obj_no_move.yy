@@ -7,7 +7,7 @@
     "path": "sprites/spr_no_move/spr_no_move.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

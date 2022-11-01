@@ -3,7 +3,7 @@
 if following != self
 {
 	p_dis = point_distance(x, y, following.x, following.y)
-	if p_dis > 64
+	if p_dis > follow_dist
 	{
 		move_dir = point_direction(x, y, following.x, following.y)
 		mspd = lerp(mspd, p_dis/25, 0.1)
@@ -31,6 +31,10 @@ else if place_meeting(x, y, obj_player2) { following = obj_player2 }
 
 #region go into goal
 
-if place_meeting(following.x, following.y, obj_goal) { following = instance_place(following.x, following.y, obj_goal) }
+if place_meeting(following.x, following.y, obj_goal)
+{
+	following = instance_place(following.x, following.y, obj_goal)
+	follow_dist = 0
+}
 
 #endregion

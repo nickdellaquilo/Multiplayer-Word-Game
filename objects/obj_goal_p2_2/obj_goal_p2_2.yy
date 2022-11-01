@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_goal",
-    "path": "objects/obj_goal/obj_goal.yy",
+    "name": "obj_goal_p2",
+    "path": "objects/obj_goal_p2/obj_goal_p2.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
