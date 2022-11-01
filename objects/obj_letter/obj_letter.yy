@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_letter",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_alphabet",
+    "path": "sprites/spr_alphabet/spr_alphabet.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_player_master",
   "spriteId": {
-    "name": "Sprite3",
-    "path": "sprites/Sprite3/Sprite3.yy",
+    "name": "spr_player_temp",
+    "path": "sprites/spr_player_temp/spr_player_temp.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "player",
+    "path": "folders/Objects/player.yy",
   },
 }

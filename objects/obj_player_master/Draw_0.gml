@@ -1,1 +1,1 @@
-draw_circle(x, y, 16, false)
+draw_sprite_ext(spr_player_temp, 1, x, y, 1, 1, image_angle, col, 1)
