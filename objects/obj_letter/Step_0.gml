@@ -20,10 +20,10 @@ else if place_meeting(x, y, obj_player2) { following = obj_player2 }
 
 //else if place_meeting(x, y, obj_player_master)
 //{
-//	if other.followed == pointer_null
+//	if other.follower == pointer_null
 //	{
 //		following = other
-//		other.followed = self
+//		other.follower = self
 //	}
 //}
 
@@ -31,10 +31,13 @@ else if place_meeting(x, y, obj_player2) { following = obj_player2 }
 
 #region go into goal
 
-if place_meeting(following.x, following.y, obj_goal)
+if following != self
 {
-	following = instance_place(following.x, following.y, obj_goal)
-	follow_dist = 0
+	if place_meeting(following.x, following.y, obj_goal)
+	{
+		following = instance_place(following.x, following.y, obj_goal)
+		follow_dist = 0
+	}
 }
 
 #endregion
