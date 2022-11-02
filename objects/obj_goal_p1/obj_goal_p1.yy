@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_goal_p1_2",
+  "name": "obj_goal_p1",
   "spriteId": {
     "name": "spr_goal_temp",
     "path": "sprites/spr_goal_temp/spr_goal_temp.yy",
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_goal_p1",
-    "path": "objects/obj_goal_p1/obj_goal_p1.yy",
+    "name": "obj_goal",
+    "path": "objects/obj_goal/obj_goal.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

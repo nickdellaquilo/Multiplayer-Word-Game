@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_goal_p1_2",
+  "name": "obj_goal_p1_5",
   "spriteId": {
     "name": "spr_goal_temp",
     "path": "sprites/spr_goal_temp/spr_goal_temp.yy",
