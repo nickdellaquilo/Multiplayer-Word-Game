@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sd_gamemusic.mp3",
-  "duration": 0.0,
+  "duration": 160.056,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

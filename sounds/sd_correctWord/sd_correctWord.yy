@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sd_correctWord",
-  "duration": 0.0,
+  "soundFile": "sd_correctWord.wav",
+  "duration": 1.195918,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
