@@ -14,8 +14,14 @@ if following != self
 	}
 }
 
-else if place_meeting(x, y, obj_player1) { following = obj_player1 }
-else if place_meeting(x, y, obj_player2) { following = obj_player2 }
+else if place_meeting(x, y, obj_player1) {
+	following = obj_player1;
+	audio_play_sound(sd_letterLockedIn,0,false);
+}
+else if place_meeting(x, y, obj_player2) {
+	following = obj_player2 
+	audio_play_sound(sd_letterLockedIn,0,false);
+}
 
 
 //else if place_meeting(x, y, obj_player_master)
