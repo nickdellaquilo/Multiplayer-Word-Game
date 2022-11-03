@@ -68,6 +68,7 @@ if following != self
 		new_follow = instance_place(following.x, following.y, obj_goal)
 		
 		if (new_follow.occupied == false) {
+			audio_play_sound(sd_letterLockedIn,0,false);
 			following.follower = pointer_null
 			following = new_follow
 			new_follow.occupied = true
@@ -82,6 +83,7 @@ if following != self
 	{
 		new_follow = instance_place(following.x, following.y, obj_goal)
 		if (new_follow.occupied == false) {
+			audio_play_sound(sd_letterLockedIn,0,false);
 			following.follower = pointer_null
 			following = new_follow
 			new_follow.occupied = true
