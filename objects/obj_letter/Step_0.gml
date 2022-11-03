@@ -72,6 +72,7 @@ if following != self
 			following.follower = pointer_null
 			following = new_follow
 			new_follow.occupied = true
+			new_follow.occupying_letter = self
 			UpdateWord(letter, following.player, following.num)
 			follow_dist = 0
 		}
@@ -87,6 +88,7 @@ if following != self
 			following.follower = pointer_null
 			following = new_follow
 			new_follow.occupied = true
+			new_follow.occupying_letter = self
 			UpdateWord(letter, following.player, following.num)
 			follow_dist = 0
 		}
