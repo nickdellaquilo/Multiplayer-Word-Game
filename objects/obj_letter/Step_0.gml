@@ -18,6 +18,7 @@ else if place_meeting(x, y, obj_player1) {
 	if obj_player1.follower == pointer_null {
 		following = obj_player1;
 		obj_player1.follower = self
+		col = c_aqua
 		audio_play_sound(sd_letterLockedIn,0,false);
 	}
 }
@@ -25,6 +26,7 @@ else if place_meeting(x, y, obj_player2) {
 	if obj_player2.follower == pointer_null {
 		following = obj_player2 
 		obj_player2.follower = self
+		col = c_fuchsia
 		audio_play_sound(sd_letterLockedIn,0,false);
 	}
 }
@@ -71,6 +73,7 @@ if following != self
 			audio_play_sound(sd_letterLockedIn,0,false);
 			following.follower = pointer_null
 			following = new_follow
+			col = c_white
 			new_follow.occupied = true
 			new_follow.occupying_letter = self
 			UpdateWord(letter, following.player, following.num)
@@ -87,6 +90,7 @@ if following != self
 			audio_play_sound(sd_letterLockedIn,0,false);
 			following.follower = pointer_null
 			following = new_follow
+			col = c_white
 			new_follow.occupied = true
 			new_follow.occupying_letter = self
 			UpdateWord(letter, following.player, following.num)
