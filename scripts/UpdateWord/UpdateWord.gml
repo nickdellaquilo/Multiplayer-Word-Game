@@ -6,12 +6,12 @@ function UpdateWord(_letter, _player, _num)
 		
 			word_p1[_num - 1] = _letter
 			
-			for (i = 0; i < 6; i++)
-				{
-					if word_p1[i] == "_" { break; }
-					show_debug_message("Checked word " + string(_player) + " letter " + string(_num))
-					//else if i == 5 { CheckSpelling(1) }
-				}
+			//for (i = 0; i < 6; i++)
+			//	{
+			//		if word_p1[i] == "_" { break; }
+			//		show_debug_message("Checked word " + string(_player) + " letter " + string(_num))
+			//		//else if i == 5 { CheckSpelling(1) }
+			//	}
 		
 		break;
 		
@@ -19,12 +19,12 @@ function UpdateWord(_letter, _player, _num)
 		
 			word_p2[_num - 1] = _letter
 			
-			for (i = 0; i < 6; i++)
-				{
-					if word_p2[i] == "_" { break }
-					show_debug_message("Checked word " + string(_player) + " letter " + string(_num))
-					//else if i == 5 { CheckSpelling(2) }
-				}
+			//for (i = 0; i < 6; i++)
+			//	{
+			//		if word_p2[i] == "_" { break }
+			//		show_debug_message("Checked word " + string(_player) + " letter " + string(_num))
+			//		//else if i == 5 { CheckSpelling(2) }
+			//	}
 		
 		break;
 	}
