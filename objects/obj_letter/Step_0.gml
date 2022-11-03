@@ -66,16 +66,12 @@ if following != self
 	//if goal == not noone
 	{
 		new_follow = instance_place(following.x, following.y, obj_goal)
-		following.follower = pointer_null
-		following = new_follow
-		new_follow.occupied = true
-		//new_follow.curr_letter =
-		UpdateWord(letter, following.player, following.num)
-		follow_dist = 0
+		
 		if (new_follow.occupied == false) {
 			following.follower = pointer_null
 			following = new_follow
 			new_follow.occupied = true
+			UpdateWord(letter, following.player, following.num)
 			follow_dist = 0
 		}
 	}
@@ -89,6 +85,7 @@ if following != self
 			following.follower = pointer_null
 			following = new_follow
 			new_follow.occupied = true
+			UpdateWord(letter, following.player, following.num)
 			follow_dist = 0
 		}
 	}
