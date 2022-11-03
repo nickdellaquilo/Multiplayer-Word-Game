@@ -1,1 +1,1 @@
-draw_sprite_ext(spr_alphabet, ord(letter) - 65, x, y, 2.5, 2.5, 0, c_white, 1)
+draw_sprite_ext(spr_alphabet, ord(letter) - 65, x, y, 1, 1, 0, c_white, 1)
