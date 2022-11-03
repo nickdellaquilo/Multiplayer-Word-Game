@@ -1,7 +1,7 @@
 //spd = 3
 vspd = 0
 hspd = 0
-mspd = 10
+mspd = 8
 move_dir = 0
 //top_limit = 0
 //bottom_limit = room_height

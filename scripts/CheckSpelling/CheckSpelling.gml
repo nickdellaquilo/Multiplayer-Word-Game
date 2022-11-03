@@ -29,7 +29,19 @@ function CheckSpelling(_player){
 			instance_destroy(curr_letters[j]) // can replace with animation/particle destroy script later
 		}
 	}
+	
 	#endregion
 	
+	#region reset word(s)
 	
+	if		_player == 1 { word_p1 = [0, 0, 0, 0, 0, 0] }
+	else if _player == 2 { word_p2 = [0, 0, 0, 0, 0, 0] }
+	obj_goal_p1_1.occupied = false
+	obj_goal_p1_2.occupied = false
+	obj_goal_p1_3.occupied = false
+	obj_goal_p1_4.occupied = false
+	obj_goal_p1_5.occupied = false
+	obj_goal_p1_6.occupied = false
+	
+	#endregion
 }

@@ -5,8 +5,8 @@ score_p2 = 0;
 
 globalvar word_p1;
 globalvar word_p2;
-word_p1 = "______";
-word_p2 = "______";
+word_p1 = [0, 0, 0, 0, 0, 0];
+word_p2 = [0, 0, 0, 0, 0, 0];
 
 curr_word_len = 6
 round_num = 1
