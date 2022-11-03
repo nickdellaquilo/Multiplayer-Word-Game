@@ -43,9 +43,38 @@ else if place_meeting(x, y, obj_player2) {
 
 #region go into goal
 
+//if following != self
+//{
+//	if place_meeting(following.x, following.y, obj_goal)
+//	//goal = instance_place(following.x, following.y, obj_goal)
+//	//if goal == not noone
+//	{
+//		new_follow = instance_place(following.x, following.y, obj_goal)
+//		if (new_follow.occupied == false) {
+//			following.follower = pointer_null
+//			following = new_follow
+//			new_follow.occupied = true
+//			follow_dist = 0
+//		}
+//	}
+//}
+
 if following != self
 {
-	if place_meeting(following.x, following.y, obj_goal)
+	if ((place_meeting(following.x, following.y, obj_goal_p1)) && (following = obj_player1))
+	//goal = instance_place(following.x, following.y, obj_goal)
+	//if goal == not noone
+	{
+		new_follow = instance_place(following.x, following.y, obj_goal)
+		if (new_follow.occupied == false) {
+			following.follower = pointer_null
+			following = new_follow
+			new_follow.occupied = true
+			follow_dist = 0
+		}
+	}
+	
+	if ((place_meeting(following.x, following.y, obj_goal_p2)) && (following = obj_player2))
 	//goal = instance_place(following.x, following.y, obj_goal)
 	//if goal == not noone
 	{
@@ -58,5 +87,7 @@ if following != self
 		}
 	}
 }
+
+
 
 #endregion
