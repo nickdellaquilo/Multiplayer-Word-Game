@@ -1,2 +1,3 @@
 occupied = false
-col = c_white
+color = c_white
+num = 0

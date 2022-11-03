@@ -9,3 +9,11 @@ if(room = Room1){
 }
 
 #endregion
+
+#region set active slots
+
+#endregion
+
+#region check for completed words
+
+#endregion

@@ -15,12 +15,18 @@ if following != self
 }
 
 else if place_meeting(x, y, obj_player1) {
-	following = obj_player1;
-	audio_play_sound(sd_letterLockedIn,0,false);
+	if obj_player1.follower == pointer_null {
+		following = obj_player1;
+		obj_player1.follower = self
+		audio_play_sound(sd_letterLockedIn,0,false);
+	}
 }
 else if place_meeting(x, y, obj_player2) {
-	following = obj_player2 
-	audio_play_sound(sd_letterLockedIn,0,false);
+	if obj_player2.follower == pointer_null {
+		following = obj_player2 
+		obj_player2.follower = self
+		audio_play_sound(sd_letterLockedIn,0,false);
+	}
 }
 
 
@@ -40,8 +46,13 @@ else if place_meeting(x, y, obj_player2) {
 if following != self
 {
 	if place_meeting(following.x, following.y, obj_goal)
+	//goal = instance_place(following.x, following.y, obj_goal)
+	//if goal == not noone
 	{
-		following = instance_place(following.x, following.y, obj_goal)
+		new_follow = instance_place(following.x, following.y, obj_goal)
+		following.follower = pointer_null
+		following = new_follow
+		new_follow.occupied = true
 		follow_dist = 0
 	}
 }
