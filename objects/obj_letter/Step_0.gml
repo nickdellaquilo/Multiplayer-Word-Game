@@ -112,6 +112,8 @@ if (following == obj_player1) || (following == obj_player2) {
 if (following != self) && (following != obj_player1) && (following != obj_player2) {
 	if (place_meeting(x, y, obj_player1)) && (obj_player1.pick == true) {
 		following.occupied = false
+		following.occupying_letter = pointer_null
+		UpdateWord(0, following.player, following.num)
 		following = obj_player1
 		obj_player1.follower = self
 		col = c_aqua
@@ -120,6 +122,8 @@ if (following != self) && (following != obj_player1) && (following != obj_player
 	
 	if (place_meeting(x, y, obj_player2)) && (obj_player2.pick == true) {
 		following.occupied = false
+		following.occupying_letter = pointer_null
+		UpdateWord(0, following.player, following.num)
 		following = obj_player2 
 		obj_player2.follower = self
 		col = c_fuchsia
