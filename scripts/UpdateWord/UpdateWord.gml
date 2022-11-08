@@ -21,7 +21,7 @@ function UpdateWord(_letter, _player, _num)
 			
 			for (i = 0; i < 6; i++)
 				{
-					if word_p2[i] == "_" { break }
+					if word_p2[i] == 0 { break }
 					//show_debug_message("Checked word " + string(_player) + " letter " + string(_num))
 					else if i == 5 { CheckSpelling(2) }
 				}
