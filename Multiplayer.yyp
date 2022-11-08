@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "Multiplayer",
   "resources": [
+    {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},"order":17,},
     {"id":{"name":"obj_goal_p2_4","path":"objects/obj_goal_p2_4/obj_goal_p2_4.yy",},"order":4,},
     {"id":{"name":"spr_alphabet","path":"sprites/spr_alphabet/spr_alphabet.yy",},"order":1,},
     {"id":{"name":"obj_camera_p2","path":"objects/obj_camera_p2/obj_camera_p2.yy",},"order":2,},
@@ -35,7 +36,7 @@
     {"id":{"name":"obj_goal_p1_3","path":"objects/obj_goal_p1_3/obj_goal_p1_3.yy",},"order":2,},
     {"id":{"name":"obj_goal_p1_6","path":"objects/obj_goal_p1_6/obj_goal_p1_6.yy",},"order":6,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":1,},
-    {"id":{"name":"Spawn","path":"objects/Spawn/Spawn.yy",},"order":16,},
+    {"id":{"name":"ojb_spawn","path":"objects/ojb_spawn/ojb_spawn.yy",},"order":16,},
     {"id":{"name":"obj_goal_p1","path":"objects/obj_goal_p1/obj_goal_p1.yy",},"order":3,},
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"order":2,},
     {"id":{"name":"obj_camera_p1","path":"objects/obj_camera_p1/obj_camera_p1.yy",},"order":1,},

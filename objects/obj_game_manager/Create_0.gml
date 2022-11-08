@@ -21,6 +21,14 @@ curr_word_len = 6;
 globalvar round_num;
 round_num = 1
 
+
+globalvar minutes;
+minutes = 3;
+
+globalvar seconds;
+seconds = 0;
+
+
 #region word dictionary
 
 var f = working_directory + "\\notes\\dictionary\\dictionary.txt";
