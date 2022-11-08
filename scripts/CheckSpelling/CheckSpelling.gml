@@ -2,8 +2,16 @@ function CheckSpelling(_player){
 	
 	#region get letters
 	
-	if		_player == 1 { var goals = obj_goal_p1 }
-	else if _player == 2 { var goals = obj_goal_p2 }
+	if		_player == 1 
+	{
+		var goals = obj_goal_p1
+		var curr_word = json_stringify(word_p1)
+	}
+	else if _player == 2 
+	{
+		var goals = obj_goal_p2
+		var curr_word = json_stringify(word_p2)
+	}
 	else {  }
 	
 	for (var i = 0; i < instance_number(goals); i++;)
@@ -13,50 +21,20 @@ function CheckSpelling(_player){
 	
 	#endregion
 	
-	#region check spelling
+	#region check spelling & update score
 	
-	var f = working_directory + "\\notes\\dictionary\\dictionary.txt";
-	var list = ds_list_create();
+	var word_search = ds_list_find_index(word_list, curr_word)
 	
-	if(file_exists(f)) {
-		var file = file_text_open_read(f);
-		
-		while (!file_text_eof(file)) {
-			ds_list_add(list, string_upper(file_text_read_string(file)));
-			file_text_readln(file);
-		}
-		file_text_close(file);
-	}
-	
-	#endregion
-	
-	#region update score
-	
-	//var p1_curr_word;
-	//var p2_curr_word;
-	
-	var curr_word = json_stringify(curr_letters)
-	
-	if(ds_list_find_index(list, curr_word) != -1) {
+	if(word_search != -1) {
 		
 		audio_play_sound(sd_correctWord, 0, false)
 		
-		for (var i = 0; i < array_length(curr_letters); i++)
+		for (var i = 0; i < 6; i++)
 		{
 			if		_player == 1 { score_p1 += curr_letters[i].point }
 			else if _player == 2 { score_p2 += curr_letters[i].point }
 		}
 	}
-	
-	//if(ds_list_find_index(list, p2_curr_word) != -1) {
-	//	//score_p2 += 1;
-	//	for (var i = 0; i < array_length(curr_letters); i++)
-	//	{
-	//		score_p2 += curr_letters[i].point
-	//	}
-	//}
-	
-	
 	#endregion
 	
 	#region remove letters from goals

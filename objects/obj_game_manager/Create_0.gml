@@ -8,5 +8,28 @@ globalvar word_p2;
 word_p1 = [0, 0, 0, 0, 0, 0];
 word_p2 = [0, 0, 0, 0, 0, 0];
 
-curr_word_len = 6
+globalvar curr_word_len;
+curr_word_len = 6;
+
+globalvar round_num;
 round_num = 1
+
+#region word dictionary
+
+var f = working_directory + "\\notes\\dictionary\\dictionary.txt";
+globalvar word_list;
+word_list = ds_list_create();
+
+if(file_exists(f)) {
+	var file = file_text_open_read(f);
+	
+	while (!file_text_eof(file)) {
+		ds_list_add(word_list, string_upper(file_text_read_string(file)));
+		file_text_readln(file);
+	}
+	file_text_close(file);
+}
+
+show_debug_message(string(word_list))
+
+#endregion
