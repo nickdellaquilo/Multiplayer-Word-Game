@@ -80,6 +80,7 @@ function CheckSpelling(_player){
 		obj_goal_p1_4.occupied = false
 		obj_goal_p1_5.occupied = false
 		obj_goal_p1_6.occupied = false
+		num_words -= 6;
 		}
 	else if _player == 2 {
 		word_p2 = [0, 0, 0, 0, 0, 0]
@@ -89,7 +90,7 @@ function CheckSpelling(_player){
 		obj_goal_p2_4.occupied = false
 		obj_goal_p2_5.occupied = false
 		obj_goal_p2_6.occupied = false
-		
+		num_words -= 6;
 		}
 	
 	
