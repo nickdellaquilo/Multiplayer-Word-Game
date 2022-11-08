@@ -62,7 +62,7 @@ function CheckSpelling(_player){
 		}
 	else if _player == 2 {
 		word_p2 = [0, 0, 0, 0, 0, 0]
-		obj_goal_p1_1.occupied = false
+		obj_goal_p2_1.occupied = false
 		obj_goal_p2_2.occupied = false
 		obj_goal_p2_3.occupied = false
 		obj_goal_p2_4.occupied = false
