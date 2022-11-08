@@ -4,6 +4,8 @@ randomize()
 
 letter_num = irandom(98)
 
+#region probability
+
 if		( 0 <= letter_num and letter_num < 12) { letter = "E" } // 12
 else if (12 <= letter_num and letter_num < 21) { letter = "A" } // 9
 else if (21 <= letter_num and letter_num < 30) { letter = "I" } // 9
@@ -31,6 +33,58 @@ else if (95 <= letter_num and letter_num < 96) { letter = "X" } // 1
 else if (96 <= letter_num and letter_num < 97) { letter = "Q" } // 1
 else if (97 <= letter_num and letter_num < 98) { letter = "Z" } // 1
 else { letter = "?" }
+
+#endregion
+
+#region scoring
+
+switch (letter) {
+	case "A":
+	case "E":
+	case "I":
+	case "L":
+	case "N":
+	case "O":
+	case "R":
+	case "S":
+	case "T":
+	case "U":
+		points = 1
+	break;
+	case "G":
+	case "D":
+		points = 2
+	break;
+	case "B":
+	case "C":
+	case "M":
+	case "P":
+		points = 3
+	break;
+	case "F":
+	case "H":
+	case "V":
+	case "W":
+	case "Y":
+		points = 4
+	break;
+	case "K":
+		points = 5
+	break;
+	case "J":
+	case "X":
+		points = 8
+	break;
+	case "Q":
+	case "Z":
+		points = 10;
+	break;
+	default:
+		points = 0
+	break;
+}
+
+#endregion
 
 following = self
 mspd = 0
