@@ -58,3 +58,13 @@ if (follower != pointer_null) {
 		drop = true
 	}
 }
+
+if (follower == pointer_null) {
+	if keyboard_check(key_pick) {
+		pick = true
+	}
+}
+
+if keyboard_check_released(key_pick) {
+	pick = false
+}

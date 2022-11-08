@@ -64,7 +64,7 @@ else if place_meeting(x, y, obj_player2) {
 
 if following != self
 {
-	if ((place_meeting(following.x, following.y, obj_goal_p1)) && (following = obj_player1))
+	if ((place_meeting(following.x, following.y, obj_goal_p1)) && (following == obj_player1) && (!obj_player1.pick))
 	//goal = instance_place(following.x, following.y, obj_goal)
 	//if goal == not noone
 	{
@@ -82,7 +82,7 @@ if following != self
 		}
 	}
 	
-	if ((place_meeting(following.x, following.y, obj_goal_p2)) && (following = obj_player2))
+	if ((place_meeting(following.x, following.y, obj_goal_p2)) && (following == obj_player2) && (!obj_player2.pick))
 	//goal = instance_place(following.x, following.y, obj_goal)
 	//if goal == not noone
 	{
@@ -109,6 +109,22 @@ if (following == obj_player1) || (following == obj_player2) {
 	}
 }
 
-
+if (following != self) && (following != obj_player1) && (following != obj_player2) {
+	if (place_meeting(x, y, obj_player1)) && (obj_player1.pick == true) {
+		following.occupied = false
+		following = obj_player1
+		obj_player1.follower = self
+		col = c_aqua
+		audio_play_sound(sd_letterLockedIn,0,false)
+	}
+	
+	if (place_meeting(x, y, obj_player2)) && (obj_player2.pick == true) {
+		following.occupied = false
+		following = obj_player2 
+		obj_player2.follower = self
+		col = c_fuchsia
+		audio_play_sound(sd_letterLockedIn,0,false)
+	}
+}
 
 #endregion

@@ -15,3 +15,4 @@ y_remainder = 0
 bumped_into_something = false
 
 drop = false
+pick = false
