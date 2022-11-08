@@ -22,6 +22,7 @@ else if place_meeting(x, y, obj_player1) {
 		audio_play_sound(sd_letterLockedIn,0,false);
 	}
 }
+
 else if place_meeting(x, y, obj_player2) {
 	if obj_player2.follower == pointer_null {
 		following = obj_player2 
@@ -96,6 +97,15 @@ if following != self
 			UpdateWord(letter, following.player, following.num)
 			follow_dist = 0
 		}
+	}
+}
+
+if (following == obj_player1) || (following == obj_player2) {
+	if following.drop {
+		following.follower = pointer_null
+		following.drop = false
+		following = self	
+		col = c_white
 	}
 }
 

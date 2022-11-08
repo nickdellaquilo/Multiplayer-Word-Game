@@ -51,3 +51,10 @@ or keyboard_check(key_down)
 or keyboard_check(key_right){        // if pressing any move keys, move player!
     MoveCollide()
 }
+
+if (follower != pointer_null) {
+	if keyboard_check(key_drop) {
+		follower = pointer_null
+		drop = true
+	}
+}

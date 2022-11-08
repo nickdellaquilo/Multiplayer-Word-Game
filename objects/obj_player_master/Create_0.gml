@@ -13,3 +13,5 @@ x_remainder = 0
 y_remainder = 0
 
 bumped_into_something = false
+
+drop = false
