@@ -32,18 +32,25 @@ function CheckSpelling(_player){
 	
 	#region update score
 	
-	/*
 	var p1_curr_word;
 	var p2_curr_word;
 	
 	if(ds_list_find_index(list ,p1_curr_word) != -1) {
-		score_p1 += 1;	
+		//score_p1 += 1;	
+		for (var i = 0; i < array_length(curr_letters); i++)
+		{
+			score_p1 += curr_letters[i].point
+		}
 	}
 	
 	if(ds_list_find_index(list, p2_curr_word) != -1) {
-		score_p2 += 1;	
+		//score_p2 += 1;
+		for (var i = 0; i < array_length(curr_letters); i++)
+		{
+			score_p2 += curr_letters[i].point
+		}
 	}
-	*/
+	
 	
 	#endregion
 	
