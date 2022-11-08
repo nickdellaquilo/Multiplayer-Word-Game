@@ -15,9 +15,34 @@ function CheckSpelling(_player){
 	
 	#region check spelling
 	
+	var f = working_directory + "\\notes\\dictionary\\dictionary.txt";
+	var list = ds_list_create();
+	
+	if(file_exists(f)) {
+		var file = file_text_open_read(f);
+		
+		while (!file_text_eof(file)) {
+			ds_list_add(list, string_upper(file_text_read_string(file)));
+			file_text_readln(file);
+		}
+		file_text_close(file);
+	}
+	
 	#endregion
 	
 	#region update score
+	/*
+	var p1_curr_word;
+	var p2_curr_word;
+	
+	if(ds_list_find_index(list ,p1_curr_word) != -1) {
+		score_p1 += 1;	
+	}
+	
+	if(ds_list_find_index(list, p2_curr_word) != -1) {
+		score_p2 += 1;	
+	}
+	*/
 	
 	#endregion
 	
