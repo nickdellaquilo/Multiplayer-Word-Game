@@ -31,6 +31,7 @@ function CheckSpelling(_player){
 	#endregion
 	
 	#region update score
+	
 	/*
 	var p1_curr_word;
 	var p2_curr_word;
