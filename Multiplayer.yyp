@@ -7,6 +7,7 @@
     {"id":{"name":"spr_alphabet","path":"sprites/spr_alphabet/spr_alphabet.yy",},"order":1,},
     {"id":{"name":"obj_camera_p2","path":"objects/obj_camera_p2/obj_camera_p2.yy",},"order":2,},
     {"id":{"name":"spr_player_temp","path":"sprites/spr_player_temp/spr_player_temp.yy",},"order":2,},
+    {"id":{"name":"sd_countdown","path":"sounds/sd_countdown/sd_countdown.yy",},"order":6,},
     {"id":{"name":"fnt_hud","path":"fonts/fnt_hud/fnt_hud.yy",},"order":0,},
     {"id":{"name":"obj_goal_p1_4","path":"objects/obj_goal_p1_4/obj_goal_p1_4.yy",},"order":4,},
     {"id":{"name":"obj_goal_p1_5","path":"objects/obj_goal_p1_5/obj_goal_p1_5.yy",},"order":5,},

@@ -118,6 +118,7 @@ if (following != self) && (following != obj_player1) && (following != obj_player
 		obj_player1.follower = self
 		col = c_aqua
 		audio_play_sound(sd_letterLockedIn,0,false)
+		
 	}
 	
 	if (place_meeting(x, y, obj_player2)) && (obj_player2.pick == true) {

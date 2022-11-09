@@ -16,7 +16,7 @@ draw_text(32, 32*3, ("WASD to move, Q to drop, E to pick up"))
 draw_set_halign(fa_right)
 draw_set_color(c_red)
 draw_text(room_width - 32, 32*1.5, (string_repeat("0", 6-string_length(string(score_p2)))) + string(score_p2))
-draw_text(room_width - 32, 32*3, ("IJKL to move, U to drop, O to pick up"))
+draw_text(room_width - 32, 32*3, ("ARROWS to move, R_SHIFT to drop, ENTER to pick up"))
 
 #endregion
 
