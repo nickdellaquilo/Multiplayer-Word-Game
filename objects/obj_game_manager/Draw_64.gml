@@ -23,7 +23,14 @@ if(room == Game){
 	draw_text(room_width - 32, 32*3, ("ARROWS: move, ENTER: drop, R_SHIFT: pick up"))
 }
 
-
+if (room == Scores) {
+	draw_set_font(fnt_title)
+	draw_set_valign(fa_center)
+	draw_set_halign(fa_middle)
+	draw_set_color(c_black)
+	draw_text(room_width / 2, room_height / 2 - 100, "GAME OVER")
+	// TODO: scores
+}
 
 
 #endregion

@@ -23,10 +23,10 @@ round_num = 1
 
 
 globalvar minutes;
-minutes = 3;
+minutes = 1;
 
 globalvar seconds;
-seconds = 0;
+seconds = 30;
 
 
 #region word dictionary
