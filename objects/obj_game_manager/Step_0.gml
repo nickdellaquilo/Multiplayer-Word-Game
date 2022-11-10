@@ -1,4 +1,4 @@
-if(room = Room1){
+if(room = Game){
 	if !audio_is_playing(sd_gamemusic){
 		audio_play_sound(sd_gamemusic,0,true);
 	}
