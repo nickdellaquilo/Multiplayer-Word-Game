@@ -23,8 +23,14 @@ function CheckSpelling(_player){
 	
 	#region check spelling & update score
 	
-	var word_search = ds_list_find_index(word_list, curr_word)
+	//curr_word = ""
+	//for (i = 0; i < 6; i++) {
+	//	curr_word += curr_word_arr[i]
+	//}
 	
+	var word_search = ds_list_find_index(word_list, curr_word)
+	//show_debug_message(curr_word + typeof(curr_word))
+	//show_debug_message(string(word_search))
 	if(word_search != -1) {
 		audio_play_sound(sd_correctWord, 0, false)
 		

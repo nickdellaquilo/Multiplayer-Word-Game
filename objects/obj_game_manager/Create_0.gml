@@ -31,6 +31,22 @@ seconds = 0;
 
 #region word dictionary
 
+//for (var i = 2; i <= 15; i++) {
+//var f = working_directory + "\\notes\\dictionary\\dictionary.txt";
+//globalvar word_list;
+//word_list[i] = ds_list_create();
+
+//if(file_exists(f)) {
+//	var file = file_text_open_read(f);
+	
+//	while (!file_text_eof(file)) {
+//		ds_list_add(word_list[i], string_upper(file_text_read_string(file)));
+//		file_text_readln(file);
+//	}
+//	file_text_close(file);
+//}
+//}
+
 var f = working_directory + "\\notes\\dictionary\\dictionary.txt";
 globalvar word_list;
 word_list = ds_list_create();
