@@ -26,7 +26,6 @@ function CheckSpelling(_player){
 	var word_search = ds_list_find_index(word_list, curr_word)
 	
 	if(word_search != -1) {
-		
 		audio_play_sound(sd_correctWord, 0, false)
 		
 		for (var i = 0; i < 6; i++)
