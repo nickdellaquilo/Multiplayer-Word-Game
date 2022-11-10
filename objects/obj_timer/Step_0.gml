@@ -15,3 +15,7 @@ if(minutes >= 0){
 	ms -= 1;
 }
 
+if (minutes == 0 && seconds == 0 && ms = 0){
+	minutes = 0;
+	seconds = 0;
+}
