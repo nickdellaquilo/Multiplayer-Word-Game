@@ -1,0 +1,18 @@
+draw_sprite(spr_alphabet, 2,  48*14,  70*3)
+draw_sprite(spr_alphabet, 17, 48*15,  70*3)
+draw_sprite(spr_alphabet, 14, 48*16,  70*3)
+draw_sprite(spr_alphabet, 18, 48*17,  70*3)
+draw_sprite(spr_alphabet, 18, 48*18,  70*3)
+draw_sprite(spr_alphabet, 4,  48*19,  70*3)
+draw_sprite(spr_alphabet, 3,  48*20,  70*3)
+							  
+draw_sprite(spr_alphabet, 22, 48*22,  70*3)
+draw_sprite(spr_alphabet, 14, 48*23,  70*3)
+draw_sprite(spr_alphabet, 17, 48*24,  70*3)
+draw_sprite(spr_alphabet, 3,  48*25,  70*3)
+draw_sprite(spr_alphabet, 18, 48*26,  70*3)
+
+draw_set_font(fnt_title)
+draw_set_valign(fa_center)
+draw_set_halign(fa_middle)
+draw_text(room_width * 0.5, room_height * 0.5, "Press any key to continue")
