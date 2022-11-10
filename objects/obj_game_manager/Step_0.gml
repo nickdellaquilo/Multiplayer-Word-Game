@@ -1,9 +1,16 @@
-if(room = Game){
+if(room == Game){
 	if !audio_is_playing(sd_gamemusic){
 		audio_play_sound(sd_gamemusic,0,true);
 	}
+	
+	if(minutes == 0 && seconds ==0){
+		room = Scores;	
+	}
 }
 
+if(room != Game){
+	audio_stop_all();	
+}
 
 #region spawn letters
 

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ojb_spawn",
+  "name": "obj_spawn",
   "spriteId": null,
   "solid": false,
   "visible": true,

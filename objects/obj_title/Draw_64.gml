@@ -12,7 +12,7 @@ draw_sprite(spr_alphabet, 17, 48*24,  70*3)
 draw_sprite(spr_alphabet, 3,  48*25,  70*3)
 draw_sprite(spr_alphabet, 18, 48*26,  70*3)
 
-draw_set_font(fnt_hud)
+draw_set_font(fnt_title)
 draw_set_valign(fa_center)
 draw_set_halign(fa_middle)
 draw_text(room_width * 0.5, room_height * 0.5, "Press any key to continue")

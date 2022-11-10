@@ -50,8 +50,9 @@ seconds = 0;
 var f = working_directory + "\\notes\\dictionary\\dictionary.txt";
 globalvar word_list;
 word_list = ds_list_create();
-
+//show_message("Hello");
 if(file_exists(f)) {
+	//show_message("Hello");
 	var file = file_text_open_read(f);
 	
 	while (!file_text_eof(file)) {
