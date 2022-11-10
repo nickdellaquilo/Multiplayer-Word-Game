@@ -21,6 +21,25 @@ if(room != Game){
 
 #region set active slots
 
+ switch round_num
+ {
+	case 1:
+	
+	break;
+	
+	case 2:
+	
+	break;
+	
+	case 3:
+	
+	break;
+	
+	default:
+		room_goto(Scores)
+	break;
+ }
+
 #endregion
 
 #region check for completed words
