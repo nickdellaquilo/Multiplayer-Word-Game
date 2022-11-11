@@ -28,6 +28,9 @@ minutes = 1;
 globalvar seconds;
 seconds = 30;
 
+globalvar dictionary_set;
+dictionary_set = []
+
 
 #region word dictionary
 
@@ -65,4 +68,5 @@ if(file_exists(f)) {
 show_debug_message(string(word_list))
 
 #endregion
+
 
