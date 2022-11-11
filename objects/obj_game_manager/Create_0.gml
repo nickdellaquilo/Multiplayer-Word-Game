@@ -5,8 +5,8 @@ score_p2 = 0;
 
 globalvar word_p1;
 globalvar word_p2;
-word_p1 = [0, 0, 0, 0, 0, 0];
-word_p2 = [0, 0, 0, 0, 0, 0];
+word_p1 = [0, 0, 0, 0, 0];
+word_p2 = [0, 0, 0, 0, 0];
 
 
 globalvar num_words;
@@ -16,7 +16,7 @@ curr_word_len = 6
 round_num = 1
 
 globalvar curr_word_len;
-curr_word_len = 6;
+curr_word_len = 5;
 
 globalvar round_num;
 round_num = 1
@@ -29,7 +29,21 @@ globalvar seconds;
 seconds = 30;
 
 globalvar dictionary_set;
-dictionary_set = []
+  dictionary_set = "bible"
+  
+ globalvar word_set;
+ word_set = ["bible","crazy","jumps","pizza","sauce","drive","apple",
+					"abuse","adult","award","basis","beach","above",
+					"while","thine","earth","avoid","alter","agree",
+					"adopt","slash","alone","arise","begin","event",
+					"faith","dream","blood","admit","awful","blind",
+					"break","goals","title","paths","rooms","order","fonts",
+					"build","errors","spawn","grace","mercy","phone",
+					"dirty","shirt","money","check","short","watch","touch",
+					"knife","think","tools","thank","hoses","start","north",
+					"since","train","visit","books","woman","light","ovens"
+					
+]
 
 
 #region word dictionary

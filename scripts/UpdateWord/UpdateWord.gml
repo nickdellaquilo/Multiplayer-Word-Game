@@ -6,7 +6,7 @@ function UpdateWord(_letter, _player, _num)
 		
 			word_p1[_num - 1] = _letter
 			
-			for (i = 0; i < 6; i++)
+			for (i = 0; i < 5; i++)
 				{
 					if word_p1[i] == 0 { break; }
 					//show_debug_message("Checked word " + string(_player) + " letter " + string(_num))
@@ -19,7 +19,7 @@ function UpdateWord(_letter, _player, _num)
 		
 			word_p2[_num - 1] = _letter
 			
-			for (i = 0; i < 6; i++)
+			for (i = 0; i < 5; i++)
 				{
 					if word_p2[i] == 0 { break }
 					//show_debug_message("Checked word " + string(_player) + " letter " + string(_num))

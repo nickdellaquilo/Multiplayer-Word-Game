@@ -28,13 +28,13 @@ function CheckSpelling(_player){
 	//	curr_word += curr_word_arr[i]
 	//}
 	
-	var word_search = ds_list_find_index(word_list, curr_word)
+	var word_search = ds_list_find_index(word_set, curr_word)
 	//show_debug_message(curr_word + typeof(curr_word))
 	//show_debug_message(string(word_search))
 	if(word_search != -1) {
 		audio_play_sound(sd_correctWord, 0, false)
 		
-		for (var i = 0; i < 6; i++)
+		for (var i = 0; i < 4; i++)
 		{
 			if		_player == 1 { score_p1 += curr_letters[i].point }
 			else if _player == 2 { score_p2 += curr_letters[i].point }
@@ -56,24 +56,24 @@ function CheckSpelling(_player){
 	#region reset word(s)
 	
 	if		_player == 1 { 
-		word_p1 = [0, 0, 0, 0, 0, 0] 
+		word_p1 = [0, 0, 0, 0, 0] 
 		obj_goal_p1_1.occupied = false
 		obj_goal_p1_2.occupied = false
 		obj_goal_p1_3.occupied = false
 		obj_goal_p1_4.occupied = false
 		obj_goal_p1_5.occupied = false
-		obj_goal_p1_6.occupied = false
-		num_words -= 6;
+		//obj_goal_p1_6.occupied = false
+		num_words -= 5;
 		}
 	else if _player == 2 {
-		word_p2 = [0, 0, 0, 0, 0, 0]
+		word_p2 = [0, 0, 0, 0, 0]
 		obj_goal_p2_1.occupied = false
 		obj_goal_p2_2.occupied = false
 		obj_goal_p2_3.occupied = false
 		obj_goal_p2_4.occupied = false
 		obj_goal_p2_5.occupied = false
-		obj_goal_p2_6.occupied = false
-		num_words -= 6;
+		//obj_goal_p2_6.occupied = false
+		num_words -= 5;
 		}
 	
 	

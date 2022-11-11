@@ -53,7 +53,7 @@ if(room != Game){
 
 if keyboard_check_pressed(vk_space){
 
-	randomize();
+randomize();
 
   dictionary_set = choose("crazy","jumps","pizza","sauce","drive","apple",
 					"abuse","adult","award","basis","beach","above",
@@ -62,7 +62,9 @@ if keyboard_check_pressed(vk_space){
 					"faith","dream","blood","admit","awful","blind",
 					"break","goals","title","paths","rooms","order","fonts",
 					"build","events","errors","spawn","grace","mercy","phone",
-					"dirty","shirt"
+					"dirty","shirt","money","check","short","watch","touch",
+					"knife","think","tools","thank","hoses","start","north",
+					"since","train","visit","books","woman"
 					
 
 )
