@@ -30,7 +30,7 @@ function CheckSpelling(_player){
 	
 	var word_search = ds_list_find_index(word_set, curr_word)
 	//show_debug_message(curr_word + typeof(curr_word))
-	//show_debug_message(string(word_search))
+	show_debug_message(string(word_search))
 	if(word_search != -1) {
 		audio_play_sound(sd_correctWord, 0, false)
 		
