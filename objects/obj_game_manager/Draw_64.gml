@@ -44,7 +44,7 @@ if (room == Scores) {
 
 #region debug word HUD
 
-if (room == Game){
+if (room == Game and debug == true){
 	draw_set_font(fnt_hud)
 
 	draw_set_halign(fa_left)
