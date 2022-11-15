@@ -66,6 +66,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5260A7A5","properties":[],"isDnd":false,"objectId":{"name":"obj_letter","path":"objects/obj_letter/obj_letter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1440.0,"y":704.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_280A1568","properties":[],"isDnd":false,"objectId":{"name":"obj_letter","path":"objects/obj_letter/obj_letter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1376.0,"y":800.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7CB1462F","properties":[],"isDnd":false,"objectId":{"name":"obj_letter","path":"objects/obj_letter/obj_letter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1440.0,"y":800.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5C74105","properties":[],"isDnd":false,"objectId":{"name":"obj_dict_init","path":"objects/obj_dict_init/obj_dict_init.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2016.0,"y":736.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_15315CB","properties":[],"isDnd":false,"objectId":{"name":"obj_input","path":"objects/obj_input/obj_input.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2016.0,"y":704.0,},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","tilesetId":{"name":"ts_scifi","path":"tilesets/ts_scifi/ts_scifi.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":60,"SerialiseHeight":30,"TileCompressedData":[
 -240,17,-30,119,-30,127,1,119,-58,32,2,127,119,-3,32,22,98,69,97,97,70,69,97,97,70,69,97,97,70,69,97,97,70,69,97,97,70,100,-8,32,22,106,77,105,105,78,77,105,105,78,77,105,105,78,77,105,105,78,77,105,
@@ -125,6 +127,8 @@
     {"name":"inst_7CB1462F","path":"rooms/Game/Game.yy",},
     {"name":"inst_1299634A","path":"rooms/Game/Game.yy",},
     {"name":"inst_14A131C5","path":"rooms/Game/Game.yy",},
+    {"name":"inst_5C74105","path":"rooms/Game/Game.yy",},
+    {"name":"inst_15315CB","path":"rooms/Game/Game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
