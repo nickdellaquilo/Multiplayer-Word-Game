@@ -5,12 +5,14 @@ function CheckSpelling(_player){
 	if		_player == 1 
 	{
 		var goals = obj_goal_p1
-		var curr_word = json_stringify(word_p1)
+		//var curr_word = json_stringify(word_p1)
+		var curr_word = string(word_p1[0]) + string(word_p1[1]) + string(word_p1[2]) + string(word_p1[3]) + string(word_p1[4])
 	}
 	else if _player == 2 
 	{
 		var goals = obj_goal_p2
-		var curr_word = json_stringify(word_p2)
+		//var curr_word = json_stringify(word_p2)
+		var curr_word = string(word_p2[0]) + string(word_p2[1]) + string(word_p2[2]) + string(word_p2[3]) + string(word_p2[4])
 	}
 	else {  }
 	
