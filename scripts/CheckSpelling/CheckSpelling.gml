@@ -65,8 +65,8 @@ function CheckSpelling(_player){
 		"KNIFE","THINK","TOOLS","THANK","HOSES","START","NORTH",
 		"SINCE","TRAIN","VISIT","BOOKS","WOMAN","LIGHT","OVENS", "BIBLE"
 		)
-		if		_player == 1 { score_p1 += 1000 }
-		else if _player == 2 { score_p2 += 1000 }
+		if		_player == 1 { score_p1 += 10 }
+		else if _player == 2 { score_p2 += 10 }
 	}
 	
 	#endregion
