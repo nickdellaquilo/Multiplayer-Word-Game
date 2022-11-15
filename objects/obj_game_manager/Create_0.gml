@@ -69,7 +69,7 @@ globalvar dictionary_set;
 //	file_text_close(file);
 //}
 //}
-
+/*
 var f = working_directory + "\\notes\\dictionary\\dictionary.txt";
 globalvar word_list;
 word_list = ds_list_create();
@@ -86,7 +86,7 @@ if(file_exists(f)) {
 }
 
 show_debug_message(string(word_list))
-
+*/
 #endregion
 
 
