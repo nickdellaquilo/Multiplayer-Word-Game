@@ -26,7 +26,7 @@ if(room == Game){
 	
 	draw_set_halign(fa_center)
 	draw_set_color(c_white)
-	draw_text(room_width/2 + 48, 32*3, (string(dictionary_set)))
+	draw_text(room_width/2, 32*3, (string(dictionary_set)))
 	
 	
 }
