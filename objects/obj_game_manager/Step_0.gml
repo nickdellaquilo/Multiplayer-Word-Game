@@ -58,16 +58,16 @@ if keyboard_check_pressed(vk_space){
 
 randomize();
 
-  dictionary_set = choose("crazy","jumps","pizza","sauce","drive","apple",
-					"abuse","adult","award","basis","beach","above",
-					"while","thine","earth","avoid","alter","agree",
-					"adopt","slash","alone","arise","begin","event",
-					"faith","dream","blood","admit","awful","blind",
-					"break","goals","title","paths","rooms","order","fonts",
-					"build","events","error","spawn","grace","mercy","phone",
-					"dirty","shirt","money","check","short","watch","touch",
-					"knife","think","tools","thank","hoses","start","north",
-					"since","train","visit","books","woman"
+  dictionary_set = choose("CRAZY","JUMPS","PIZZA","SAUCE","DRIVE","APPLE",
+	"ABUSE","ADULT","AWARD","BASIS","BEACH","ABOVE",
+	"WHILE","THINE","EARTH","AVOID","ALTER","AGREE",
+	"ADOPT","SLASH","ALONE","ARISE","BEGIN","EVENT",
+	"FAITH","DREAM","BLOOD","ADMIT","AWFUL","BLIND",
+	"BREAK","GOALS","TITLE","PATHS","ROOMS","ORDER","FONTS",
+	"BUILD","ERROR","SPAWN","GRACE","MERCY","PHONE",
+	"DIRTY","SHIRT","MONEY","CHECK","SHORT","WATCH","TOUCH",
+	"KNIFE","THINK","TOOLS","THANK","HOSES","START","NORTH",
+	"SINCE","TRAIN","VISIT","BOOKS","WOMAN","LIGHT","OVENS", "BIBLE"
 					
 
 )

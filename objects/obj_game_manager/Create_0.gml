@@ -35,13 +35,8 @@ globalvar seconds;
 seconds = 0;
 
 globalvar dictionary_set;
-  dictionary_set = "BIBLE";
-  
- globalvar word_set;
- word_set = ds_list_create();
- ds_list_add(word_set,
-[
-	"CRAZY","JUMPS","PIZZA","SAUCE","DRIVE","APPLE",
+	randomize();
+	dictionary_set = choose("CRAZY","JUMPS","PIZZA","SAUCE","DRIVE","APPLE",
 	"ABUSE","ADULT","AWARD","BASIS","BEACH","ABOVE",
 	"WHILE","THINE","EARTH","AVOID","ALTER","AGREE",
 	"ADOPT","SLASH","ALONE","ARISE","BEGIN","EVENT",
@@ -50,9 +45,9 @@ globalvar dictionary_set;
 	"BUILD","ERROR","SPAWN","GRACE","MERCY","PHONE",
 	"DIRTY","SHIRT","MONEY","CHECK","SHORT","WATCH","TOUCH",
 	"KNIFE","THINK","TOOLS","THANK","HOSES","START","NORTH",
-	"SINCE","TRAIN","VISIT","BOOKS","WOMAN","LIGHT","OVENS"					
-]
+	"SINCE","TRAIN","VISIT","BOOKS","WOMAN","LIGHT","OVENS", "BIBLE"
 )
+
 
 
 #region word dictionary
