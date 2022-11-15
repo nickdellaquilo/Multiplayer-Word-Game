@@ -35,7 +35,7 @@ globalvar seconds;
 seconds = 0;
 
 globalvar dictionary_set;
-  dictionary_set = "bible"
+  dictionary_set = "bible";
   
  globalvar word_set;
  word_set = ["crazy","jumps","pizza","sauce","drive","apple",
