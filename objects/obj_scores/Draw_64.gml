@@ -8,8 +8,8 @@ if (room == Scores) {
 	// TODO: scores
 	draw_set_color(c_white)
 	draw_set_valign(fa_middle);
-	draw_text(room_width / 1.5 - 300, room_height / 2 + 70, "Player 1: "+ string(score_p1))
-	draw_text(room_width / 1.5 - 300, room_height / 2 + 130, "Player 2: " + string(score_p2))
+	draw_text(room_width / 1.5 - 300, room_height / 2 + 30, "Player 1: "+ string(score_p1))
+	draw_text(room_width / 1.5 - 300, room_height / 2 + 100, "Player 2: " + string(score_p2))
 	draw_text(room_width / 1.5 - 300, room_height / 2 + 200, "Press SPACEBAR to play again")
 	
 
