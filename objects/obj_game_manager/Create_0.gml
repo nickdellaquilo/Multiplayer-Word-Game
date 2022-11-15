@@ -29,10 +29,10 @@ round_num = 1
 
 
 globalvar minutes;
-minutes = 1;
+minutes = 2;
 
 globalvar seconds;
-seconds = 30;
+seconds = 0;
 
 globalvar dictionary_set;
   dictionary_set = "bible"
