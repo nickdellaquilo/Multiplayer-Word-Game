@@ -39,8 +39,8 @@ if (room == Scores) {
 	draw_text(room_width / 2, room_height / 2 - 100, "GAME OVER")
 	// TODO: scores
 	
-	draw_text(room_width / 2, room_height / 2 - 150, "Player 1"+ string(score_p1))
-	draw_text(room_width / 2, room_height / 2 - 200, "Player 2" + string(score_p2))
+	draw_text(room_width / 2, room_height / 2 + 150, "Player 1: "+ string(score_p1))
+	draw_text(room_width / 2, room_height / 2 + 250, "Player 2: " + string(score_p2))
 }
 
 
