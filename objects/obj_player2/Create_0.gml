@@ -14,7 +14,7 @@ key_up    = vk_up
 key_down  = vk_down
 key_left  = vk_left
 key_right = vk_right
-key_drop  = vk_enter
+key_drop  = vk_return
 key_pick  = vk_rshift
 
 //left_limit = room_width * 0.5 + sprite_width

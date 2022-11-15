@@ -1,5 +1,5 @@
 globalvar debug;
-debug = true;
+debug = false;
 
 globalvar score_p1;
 globalvar score_p2;
