@@ -59,7 +59,7 @@ function CheckSpelling(_player){
 	
 	#region remove letters from goals
 	
-	if array_length(curr_letters) > 4 {
+	if array_length(curr_letters) > 5 {
 		for (var j = 0; j < array_length(curr_letters); j++)
 		{
 			instance_destroy(curr_letters[j]) // can replace with animation/particle destroy script later
@@ -78,7 +78,7 @@ function CheckSpelling(_player){
 		obj_goal_p1_4.occupied = false
 		obj_goal_p1_5.occupied = false
 		//obj_goal_p1_6.occupied = false
-		num_words -= 4;
+		num_words -= 5;
 		}
 	else if _player == 2 {
 		word_p2 = [0, 0, 0, 0, 0]
@@ -88,7 +88,7 @@ function CheckSpelling(_player){
 		obj_goal_p2_4.occupied = false
 		obj_goal_p2_5.occupied = false
 		//obj_goal_p2_6.occupied = false
-		num_words -= 4;
+		num_words -= 5;
 		}
 	
 	

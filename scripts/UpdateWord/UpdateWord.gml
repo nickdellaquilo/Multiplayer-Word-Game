@@ -10,7 +10,7 @@ function UpdateWord(_letter, _player, _num)
 				{
 					if word_p1[i] == 0 { break; }
 					//show_debug_message("Checked word " + string(_player) + " letter " + string(_num))
-					else if i == 3 { CheckSpelling(1) }
+					else if i == 4 { CheckSpelling(1) }
 				}
 		
 		break;
@@ -23,7 +23,7 @@ function UpdateWord(_letter, _player, _num)
 				{
 					if word_p2[i] == 0 { break }
 					//show_debug_message("Checked word " + string(_player) + " letter " + string(_num))
-					else if i == 3 { CheckSpelling(2) }
+					else if i == 4 { CheckSpelling(2) }
 				}
 		
 		break;
