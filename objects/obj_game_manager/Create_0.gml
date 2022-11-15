@@ -11,6 +11,9 @@ globalvar word_p2;
 word_p1 = [0, 0, 0, 0, 0];
 word_p2 = [0, 0, 0, 0, 0];
 
+globalvar valid_1;
+globalvar valid_2;
+
 
 globalvar num_words;
 num_words = 26;
@@ -35,7 +38,7 @@ globalvar dictionary_set;
   dictionary_set = "bible"
   
  globalvar word_set;
- word_set = ["bible","crazy","jumps","pizza","sauce","drive","apple",
+ word_set = ["crazy","jumps","pizza","sauce","drive","apple",
 					"abuse","adult","award","basis","beach","above",
 					"while","thine","earth","avoid","alter","agree",
 					"adopt","slash","alone","arise","begin","event",
