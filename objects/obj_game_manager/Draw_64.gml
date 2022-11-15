@@ -24,7 +24,7 @@ if(room == Game){
 	draw_text(room_width - 32, 32*2, ("ARROWS: move, ENTER: drop, R_SHIFT: pick up"))
 	draw_text(room_width - 40, 32*3, ("SPACEBAR: Change Word"))
 	
-	draw_set_halign(fa_right)
+	draw_set_halign(fa_center)
 	draw_set_color(c_white)
 	draw_text(room_width/2, 32*3, (string(dictionary_set)))
 	
