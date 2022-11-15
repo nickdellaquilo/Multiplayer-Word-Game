@@ -38,18 +38,21 @@ globalvar dictionary_set;
   dictionary_set = "bible";
   
  globalvar word_set;
- word_set = ["crazy","jumps","pizza","sauce","drive","apple",
-					"abuse","adult","award","basis","beach","above",
-					"while","thine","earth","avoid","alter","agree",
-					"adopt","slash","alone","arise","begin","event",
-					"faith","dream","blood","admit","awful","blind",
-					"break","goals","title","paths","rooms","order","fonts",
-					"build","error","spawn","grace","mercy","phone",
-					"dirty","shirt","money","check","short","watch","touch",
-					"knife","think","tools","thank","hoses","start","north",
-					"since","train","visit","books","woman","light","ovens"
-					
+ word_set = ds_list_create();
+ ds_list_add(word_set,
+[
+	"crazy","jumps","pizza","sauce","drive","apple",
+	"abuse","adult","award","basis","beach","above",
+	"while","thine","earth","avoid","alter","agree",
+	"adopt","slash","alone","arise","begin","event",
+	"faith","dream","blood","admit","awful","blind",
+	"break","goals","title","paths","rooms","order","fonts",
+	"build","error","spawn","grace","mercy","phone",
+	"dirty","shirt","money","check","short","watch","touch",
+	"knife","think","tools","thank","hoses","start","north",
+	"since","train","visit","books","woman","light","ovens"					
 ]
+)
 
 
 #region word dictionary
