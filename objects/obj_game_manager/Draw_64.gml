@@ -36,11 +36,11 @@ if (room == Scores) {
 	draw_set_valign(fa_center)
 	draw_set_halign(fa_middle)
 	draw_set_color(c_white)
-	draw_text(room_width / 2, room_height / 2 - 100, "GAME OVER")
+	draw_text(room_width / 2, room_height / 2 - 150, "GAME OVER")
 	// TODO: scores
 	
-	draw_text(room_width / 2, room_height / 2 + 150, "Player 1: "+ string(score_p1))
-	draw_text(room_width / 2, room_height / 2 + 250, "Player 2: " + string(score_p2))
+	draw_text(room_width / 2, room_height / 2 + 100, "Player 1: " + string(score_p1))
+	draw_text(room_width / 2, room_height / 2 + 200, "Player 2: " + string(score_p2))
 }
 
 

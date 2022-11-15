@@ -40,6 +40,26 @@ function CheckSpelling(_player){
 			else if _player == 2 { score_p2 += curr_letters[i].point }
 		}
 	}
+	
+	//var correct = true;
+	//show_debug_message(string(dictionary_set))
+	//show_debug_message(string(curr_word))
+	//for (i = 0; i < 5; i++) {
+	//	if (curr_word[i] != dictionary_set[i]) {
+	//		correct = false;
+	//	}
+	//}
+	
+	//if correct {
+	//	if _player == 1 {
+	//			score_p1 += curr_letters[i].point
+	//		}
+	
+	//	else if _player == 2 {
+	//		score_p2 += curr_letters[i].point
+	//	}
+	//}
+	
 	#endregion
 	
 	#region remove letters from goals

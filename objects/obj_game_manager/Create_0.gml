@@ -41,7 +41,7 @@ globalvar dictionary_set;
 					"adopt","slash","alone","arise","begin","event",
 					"faith","dream","blood","admit","awful","blind",
 					"break","goals","title","paths","rooms","order","fonts",
-					"build","errors","spawn","grace","mercy","phone",
+					"build","error","spawn","grace","mercy","phone",
 					"dirty","shirt","money","check","short","watch","touch",
 					"knife","think","tools","thank","hoses","start","north",
 					"since","train","visit","books","woman","light","ovens"
