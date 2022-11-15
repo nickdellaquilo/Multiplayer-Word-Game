@@ -18,7 +18,7 @@ else if (room == Scores)
 {
 	if keyboard_check_pressed(vk_anykey){
 		room_goto(Title)
-		seconds = 0;
+		seconds = 30;
 		minutes = 2;
 	}
 }
