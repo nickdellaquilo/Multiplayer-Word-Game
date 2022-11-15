@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Scores",
+  "name": "Credits",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
