@@ -1,4 +1,4 @@
-if(num_words < 26) {
+if(num_words < 40) {
 	instance_create_layer(random_range(100,1800), random_range(400,850), "Spawn", obj_letter);
 	num_words += 1;
 }

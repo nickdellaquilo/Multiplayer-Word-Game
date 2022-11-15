@@ -8,6 +8,9 @@ if(room == Game){
 		room_goto(Scores);
 		word_p1 = [0, 0, 0, 0, 0];
 		word_p2 = [0, 0, 0, 0, 0];
+		score_p1 = 0;
+		score_p2 = 0;
+		num_words = 26;
 	}
 }
 

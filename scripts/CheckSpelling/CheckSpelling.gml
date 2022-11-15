@@ -64,11 +64,8 @@ function CheckSpelling(_player){
 		"KNIFE","THINK","TOOLS","THANK","HOSES","START","NORTH",
 		"SINCE","TRAIN","VISIT","BOOKS","WOMAN","LIGHT","OVENS", "BIBLE"
 		)
-		for (var i = 0; i < 4; i++)
-		{
-			if		_player == 1 { score_p1 += curr_letters[i].point }
-			else if _player == 2 { score_p2 += curr_letters[i].point }
-		}
+		if		_player == 1 { score_p1 += 1000 }
+		else if _player == 2 { score_p2 += 1000 }
 	}
 	
 	#endregion
