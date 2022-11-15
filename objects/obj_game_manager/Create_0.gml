@@ -32,7 +32,7 @@ globalvar minutes;
 minutes = 2;
 
 globalvar seconds;
-seconds = 0;
+seconds = 30;
 
 globalvar dictionary_set;
 	randomize();

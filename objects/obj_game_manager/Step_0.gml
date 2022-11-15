@@ -6,6 +6,8 @@ if(room == Game){
 	if(minutes == 0 && seconds ==0){
 		//room = Scores;	
 		room_goto(Scores);
+		word_p1 = [0, 0, 0, 0, 0];
+		word_p2 = [0, 0, 0, 0, 0];
 	}
 }
 

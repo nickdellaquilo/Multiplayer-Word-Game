@@ -1,3 +1,3 @@
 minutes = 2;
 
-seconds = 0;
+seconds = 30;
