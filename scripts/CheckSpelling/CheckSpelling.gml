@@ -57,6 +57,19 @@ function CheckSpelling(_player){
 			if		_player == 1 { score_p1 += curr_letters[i].point }
 			else if _player == 2 { score_p2 += curr_letters[i].point }
 		}
+		
+		randomize();	
+		dictionary_set = choose("CRAZY","JUMPS","PIZZA","SAUCE","DRIVE","APPLE",
+			"ABUSE","ADULT","AWARD","BASIS","BEACH","ABOVE",
+			"WHILE","THINE","EARTH","AVOID","ALTER","AGREE",
+			"ADOPT","SLASH","ALONE","ARISE","BEGIN","EVENT",
+			"FAITH","DREAM","BLOOD","ADMIT","AWFUL","BLIND",
+			"BREAK","GOALS","TITLE","PATHS","ROOMS","ORDER","FONTS",
+			"BUILD","ERROR","SPAWN","GRACE","MERCY","PHONE",
+			"DIRTY","SHIRT","MONEY","CHECK","SHORT","WATCH","TOUCH",
+			"KNIFE","THINK","TOOLS","THANK","HOSES","START","NORTH",
+			"SINCE","TRAIN","VISIT","BOOKS","WOMAN","LIGHT","OVENS", "BIBLE")
+					
 	}
 	
 	#endregion

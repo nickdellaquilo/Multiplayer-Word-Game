@@ -90,7 +90,7 @@ if (room == Game and debug == true){
 	draw_set_halign(fa_right)
 	draw_set_color(c_red)
 	//draw_text(room_width - 64, room_height - 80, (string_repeat("_", curr_word_len-string_length(word_p2))) + word_p2)
-	draw_text(room_width - 64, room_height - 80, json_stringify(word_p2))
+	draw_text(room_width - 64, room_height - 80, string(word_p2[0]) + string(word_p2[1]) + string(word_p2[2]) + string(word_p2[3]) + string(word_p2[4]))
 }
 
 
