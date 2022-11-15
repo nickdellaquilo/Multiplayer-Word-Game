@@ -5,12 +5,14 @@ function CheckSpelling(_player){
 	if		_player == 1 
 	{
 		var goals = obj_goal_p1
-		var curr_word = json_stringify(word_p1)
+		//var curr_word = json_stringify(word_p1)
+		var curr_word_arr = word_p1
 	}
 	else if _player == 2 
 	{
 		var goals = obj_goal_p2
-		var curr_word = json_stringify(word_p2)
+		//var curr_word = json_stringify(word_p2)
+		var curr_word_arr = word_p2
 	}
 	else {  }
 	
@@ -22,11 +24,6 @@ function CheckSpelling(_player){
 	#endregion
 	
 	#region check spelling & update score
-	
-	//curr_word = ""
-	//for (i = 0; i < 6; i++) {
-	//	curr_word += curr_word_arr[i]
-	//}
 	
 	//var word_search = ds_list_find_index(word_set, curr_word)
 	////show_debug_message(curr_word + typeof(curr_word))
@@ -42,9 +39,14 @@ function CheckSpelling(_player){
 	//}
 	
 	//var word_search = ds_list_find_index(word_set, curr_word)
-	//show_debug_message(curr_word + typeof(curr_word))
-	show_debug_message(string(curr_word))
-	show_debug_message(string(dictionary_set))
+	//show_debug_message(string(curr_word))
+	//show_debug_message(string(dictionary_set))
+	
+	curr_word = ""
+	for (i = 0; i < 5; i++) {
+		curr_word += curr_word_arr[i]
+	}
+
 	if curr_word == dictionary_set {
 		audio_play_sound(sd_correctWord, 0, false)
 		
