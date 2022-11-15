@@ -22,6 +22,7 @@ if(room == Game){
 	draw_set_color(c_red)
 	draw_text(room_width - 32, 32*1.0, (string_repeat("0", 6-string_length(string(score_p2)))) + string(score_p2))
 	draw_text(room_width - 32, 32*2, ("ARROWS: move, ENTER: drop, R_SHIFT: pick up"))
+	draw_text(room_width - 40, 32*3, ("SPACEBAR: Change Word"))
 	
 	draw_set_halign(fa_right)
 	draw_set_color(c_white)
@@ -34,9 +35,12 @@ if (room == Scores) {
 	draw_set_font(fnt_title)
 	draw_set_valign(fa_center)
 	draw_set_halign(fa_middle)
-	draw_set_color(c_black)
+	draw_set_color(c_white)
 	draw_text(room_width / 2, room_height / 2 - 100, "GAME OVER")
 	// TODO: scores
+	
+	draw_text(room_width / 2, room_height / 2 - 150, "Player 1"+ string(score_p1))
+	draw_text(room_width / 2, room_height / 2 - 200, "Player 2" + string(score_p2))
 }
 
 

@@ -4,7 +4,8 @@ if(room == Game){
 	}
 	
 	if(minutes == 0 && seconds ==0){
-		room = Scores;	
+		//room = Scores;	
+		room_goto(Scores);
 	}
 }
 
