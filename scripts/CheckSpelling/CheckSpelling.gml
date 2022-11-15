@@ -51,6 +51,7 @@ function CheckSpelling(_player){
 	show_debug_message(string(dictionary_set))
 	if curr_word == dictionary_set {
 		audio_play_sound(sd_correctWord, 0, false)
+		
 		randomize();
 
 		dictionary_set = choose("CRAZY","JUMPS","PIZZA","SAUCE","DRIVE","APPLE",

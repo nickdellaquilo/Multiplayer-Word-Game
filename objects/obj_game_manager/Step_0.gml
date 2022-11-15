@@ -14,6 +14,15 @@ if(room == Game){
 	}
 }
 
+else if (room == Scores)
+{
+	if keyboard_check_pressed(vk_anykey){
+		room_goto(Title)
+		seconds = 0;
+		minutes = 2;
+	}
+}
+
 if(room != Game){
 	audio_stop_all();	
 }
