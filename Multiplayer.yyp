@@ -15,6 +15,7 @@
     {"id":{"name":"obj_goal_p1_5","path":"objects/obj_goal_p1_5/obj_goal_p1_5.yy",},"order":5,},
     {"id":{"name":"obj_collidable","path":"objects/obj_collidable/obj_collidable.yy",},"order":8,},
     {"id":{"name":"3","path":"notes/3/3.yy",},"order":1,},
+    {"id":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},"order":21,},
     {"id":{"name":"MoveCollide","path":"scripts/MoveCollide/MoveCollide.yy",},"order":0,},
     {"id":{"name":"obj_goal_p1_1","path":"objects/obj_goal_p1_1/obj_goal_p1_1.yy",},"order":0,},
     {"id":{"name":"obj_dict_init","path":"objects/obj_dict_init/obj_dict_init.yy",},"order":19,},

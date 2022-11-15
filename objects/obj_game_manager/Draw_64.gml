@@ -67,5 +67,4 @@ if (room == Game and debug == true){
 	draw_text(room_width - 64, room_height - 80, string(word_p2))
 }
 
-
 #endregion
