@@ -59,7 +59,7 @@ function CheckSpelling(_player){
 	
 	#region remove letters from goals
 	
-	if array_length(curr_letters) > 5 {
+	if array_length(curr_letters) > 4 {
 		for (var j = 0; j < array_length(curr_letters); j++)
 		{
 			instance_destroy(curr_letters[j]) // can replace with animation/particle destroy script later
