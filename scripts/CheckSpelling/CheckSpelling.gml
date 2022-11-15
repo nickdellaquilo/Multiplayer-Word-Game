@@ -51,7 +51,19 @@ function CheckSpelling(_player){
 	show_debug_message(string(dictionary_set))
 	if curr_word == dictionary_set {
 		audio_play_sound(sd_correctWord, 0, false)
-		
+		randomize();
+
+		dictionary_set = choose("CRAZY","JUMPS","PIZZA","SAUCE","DRIVE","APPLE",
+		"ABUSE","ADULT","AWARD","BASIS","BEACH","ABOVE",
+		"WHILE","THINE","EARTH","AVOID","ALTER","AGREE",
+		"ADOPT","SLASH","ALONE","ARISE","BEGIN","EVENT",
+		"FAITH","DREAM","BLOOD","ADMIT","AWFUL","BLIND",
+		"BREAK","GOALS","TITLE","PATHS","ROOMS","ORDER","FONTS",
+		"BUILD","ERROR","SPAWN","GRACE","MERCY","PHONE",
+		"DIRTY","SHIRT","MONEY","CHECK","SHORT","WATCH","TOUCH",
+		"KNIFE","THINK","TOOLS","THANK","HOSES","START","NORTH",
+		"SINCE","TRAIN","VISIT","BOOKS","WOMAN","LIGHT","OVENS", "BIBLE"
+		)
 		for (var i = 0; i < 4; i++)
 		{
 			if		_player == 1 { score_p1 += curr_letters[i].point }
