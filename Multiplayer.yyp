@@ -50,6 +50,7 @@
     {"id":{"name":"obj_player_master","path":"objects/obj_player_master/obj_player_master.yy",},"order":0,},
     {"id":{"name":"CameraTest","path":"rooms/CameraTest/CameraTest.yy",},"order":1,},
     {"id":{"name":"obj_goal_p2_2","path":"objects/obj_goal_p2_2/obj_goal_p2_2.yy",},"order":1,},
+    {"id":{"name":"Credits","path":"rooms/Credits/Credits.yy",},"order":4,},
     {"id":{"name":"Game","path":"rooms/Game/Game.yy",},"order":0,},
   ],
   "Options": [
@@ -68,6 +69,7 @@
     {"roomId":{"name":"Game","path":"rooms/Game/Game.yy",},},
     {"roomId":{"name":"Scores","path":"rooms/Scores/Scores.yy",},},
     {"roomId":{"name":"CameraTest","path":"rooms/CameraTest/CameraTest.yy",},},
+    {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
