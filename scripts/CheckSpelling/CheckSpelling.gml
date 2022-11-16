@@ -70,12 +70,12 @@ function CheckSpelling(_player){
 	//}
 	
 			
-		for (var i = 0; i < 63; i++){
+		for (var i = 0; i < 569; i++){
 			if curr_word == word_set[i]{
 				show_debug_message(word_set[i])
 				
-				if _player == 1{score_p1 +=10}
-				if _player == 2 {score_p2 +=10}
+				if _player == 1{score_p1 +=100}
+				if _player == 2 {score_p2 +=100}
 				
 				audio_play_sound(sd_correctWord, 0, false)
 			}

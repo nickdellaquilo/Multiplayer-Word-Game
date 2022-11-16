@@ -19,6 +19,7 @@ draw_set_color(c_ltgray)
 draw_text(room_width * 0.5, room_height * 0.2, "CREDITS")
 draw_set_font(fnt_hud)
 draw_text(room_width * 0.5, room_height * 0.3, "Ama Achampong")
+
 draw_text(room_width * 0.5, room_height * 0.35, "Heejin Jang")
 draw_text(room_width * 0.5, room_height * 0.4, "Minjoon Park")
 draw_text(room_width * 0.5, room_height * 0.45, "Nick Dell'Aquilo")

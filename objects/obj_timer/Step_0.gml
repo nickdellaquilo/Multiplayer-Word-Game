@@ -4,6 +4,7 @@
 if (ms == 0) {
 	ms = 60;
 	seconds -= 1;
+	
 }
 
 if (seconds == -1) {

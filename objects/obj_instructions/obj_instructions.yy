@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_scores",
+  "name": "obj_instructions",
   "spriteId": null,
   "solid": false,
   "visible": true,
