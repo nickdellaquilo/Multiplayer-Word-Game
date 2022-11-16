@@ -47,27 +47,40 @@ function CheckSpelling(_player){
 	
 	//var word_search = ds_list_find_index(word_set, curr_word)
 	//show_debug_message(curr_word + typeof(curr_word))
-	show_debug_message(string(curr_word))
-	show_debug_message(string(dictionary_set))
-	if curr_word == dictionary_set {
-		audio_play_sound(sd_correctWord, 0, false)
+	show_debug_message(curr_word)
+	show_debug_message(string(word_set))
+	show_debug_message(curr_word == word_set)
+	//if curr_word == dictionary_set {
+	//	audio_play_sound(sd_correctWord, 0, false)
 		
-		randomize();
-
-		dictionary_set = choose("CRAZY","JUMPS","PIZZA","SAUCE","DRIVE","APPLE",
-		"ABUSE","ADULT","AWARD","BASIS","BEACH","ABOVE",
-		"WHILE","THINE","EARTH","AVOID","ALTER","AGREE",
-		"ADOPT","SLASH","ALONE","ARISE","BEGIN","EVENT",
-		"FAITH","DREAM","BLOOD","ADMIT","AWFUL","BLIND",
-		"BREAK","GOALS","TITLE","PATHS","ROOMS","ORDER","FONTS",
-		"BUILD","ERROR","SPAWN","GRACE","MERCY","PHONE",
-		"DIRTY","SHIRT","MONEY","CHECK","SHORT","WATCH","TOUCH",
-		"KNIFE","THINK","TOOLS","THANK","HOSES","START","NORTH",
-		"SINCE","TRAIN","VISIT","BOOKS","WOMAN","LIGHT","OVENS", "BIBLE"
-		)
-		if		_player == 1 { score_p1 += 10 }
-		else if _player == 2 { score_p2 += 10 }
-	}
+		
+	//	dictionary_set = ["CRAZY","JUMPS","PIZZA","SAUCE","DRIVE","APPLE",
+	//	"ABUSE","ADULT","AWARD","BASIS","BEACH","ABOVE",
+	//	"WHILE","THINE","EARTH","AVOID","ALTER","AGREE",
+	//	"ADOPT","SLASH","ALONE","ARISE","BEGIN","EVENT",
+	//	"FAITH","DREAM","BLOOD","ADMIT","AWFUL","BLIND",
+	//	"BREAK","GOALS","TITLE","PATHS","ROOMS","ORDER","FONTS",
+	//	"BUILD","ERROR","SPAWN","GRACE","MERCY","PHONE",
+	//	"DIRTY","SHIRT","MONEY","CHECK","SHORT","WATCH","TOUCH",
+	//	"KNIFE","THINK","TOOLS","THANK","HOSES","START","NORTH",
+	//	"SINCE","TRAIN","VISIT","BOOKS","WOMAN","LIGHT","OVENS", "BIBLE"
+	//	]
+	//	if		_player == 1 { score_p1 += 10 }
+	//	else if _player == 2 { score_p2 += 10 }
+	//}
+	
+			
+		for (var i = 0; i < 63; i++){
+			if curr_word == word_set[i]{
+				show_debug_message(word_set[i])
+				
+				if _player == 1{score_p1 +=10}
+				if _player == 2 {score_p2 +=10}
+				
+				audio_play_sound(sd_correctWord, 0, false)
+			}
+	
+		}
 	
 	#endregion
 	

@@ -34,6 +34,20 @@ minutes = 2;
 globalvar seconds;
 seconds = 30;
 
+globalvar word_set;
+
+	word_set = ["CRAZY","JUMPS","PIZZA","SAUCE","DRIVE","APPLE",
+	"ABUSE","ADULT","AWARD","BASIS","BEACH","ABOVE",
+	"WHILE","THINE","EARTH","AVOID","ALTER","AGREE",
+	"ADOPT","SLASH","ALONE","ARISE","BEGIN","EVENT",
+	"FAITH","DREAM","BLOOD","ADMIT","AWFUL","BLIND",
+	"BREAK","GOALS","TITLE","PATHS","ROOMS","ORDER","FONTS",
+	"BUILD","ERROR","SPAWN","GRACE","MERCY","PHONE",
+	"DIRTY","SHIRT","MONEY","CHECK","SHORT","WATCH","TOUCH",
+	"KNIFE","THINK","TOOLS","THANK","HOSES","START","NORTH",
+	"SINCE","TRAIN","VISIT","BOOKS","WOMAN","LIGHT","OVENS", "BIBLE",
+	"WATER", "INPUT"]
+
 globalvar dictionary_set;
 	randomize();
 	dictionary_set = choose("CRAZY","JUMPS","PIZZA","SAUCE","DRIVE","APPLE",
@@ -46,8 +60,7 @@ globalvar dictionary_set;
 	"DIRTY","SHIRT","MONEY","CHECK","SHORT","WATCH","TOUCH",
 	"KNIFE","THINK","TOOLS","THANK","HOSES","START","NORTH",
 	"SINCE","TRAIN","VISIT","BOOKS","WOMAN","LIGHT","OVENS", "BIBLE",
-	"WATER", "INPUT"
-)
+	"WATER", "INPUT")
 
 
 
