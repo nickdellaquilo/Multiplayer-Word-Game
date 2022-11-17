@@ -29,7 +29,7 @@ round_num = 1
 
 
 globalvar minutes;
-minutes = 2;
+minutes = 1 ;
 
 globalvar seconds;
 seconds = 30;
@@ -96,7 +96,7 @@ globalvar word_set;
 	"UPPER","UPSET","URBAN","USAGE","USUAL","VALID","VALUE","VIDEO","VIRUS","VISIT",
 	"VITAL","VOICE","WASTE","WATCH","WATER","WHEEL","WHERE","WHICH","WHILE","WHITE",
 	"WHOLE","WHOSE","WOMAN","WOMEN","WORLD","WORRY","WORSE","WORST","WORTH","WOULD",
-	"WOUND","WRITE","WRONG","WROTE","YIELD","YOUNG","YOUTH" ]
+	"WOUND","WRITE","WRONG","WROTE","YIELD","YOUNG","YOUTH", "HATED",  "NOTER", "GONER", "DATES", "BORED" ]
 
 globalvar dictionary_set;
 	randomize();
@@ -160,7 +160,8 @@ globalvar dictionary_set;
 	"UPPER","UPSET","URBAN","USAGE","USUAL","VALID","VALUE","VIDEO","VIRUS","VISIT",
 	"VITAL","VOICE","WASTE","WATCH","WATER","WHEEL","WHERE","WHICH","WHILE","WHITE",
 	"WHOLE","WHOSE","WOMAN","WOMEN","WORLD","WORRY","WORSE","WORST","WORTH","WOULD",
-	"WOUND","WRITE","WRONG","WROTE","YIELD","YOUNG","YOUTH")
+	"WOUND","WRITE","WRONG","WROTE","YIELD","YOUNG","YOUTH",  "NOTER", "GONER", "DATES",
+	"HATED")
 
 
 

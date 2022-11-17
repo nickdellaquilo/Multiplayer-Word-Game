@@ -70,7 +70,7 @@ function CheckSpelling(_player){
 	//}
 	
 			
-		for (var i = 0; i < 569; i++){
+		for (var i = 0; i < 573; i++){
 			if curr_word == word_set[i]{
 				show_debug_message(word_set[i])
 				

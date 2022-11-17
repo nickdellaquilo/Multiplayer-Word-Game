@@ -13,13 +13,12 @@ if(room == Game){
 		num_words = 26;
 	}
 }
-
-else if (room == Scores)
+ if (room == Scores)
 {
-	if keyboard_check_pressed(vk_anykey){
+	if keyboard_check_pressed(vk_enter){
 		room_goto(Title)
-		seconds = 30;
-		minutes = 2;
+		//seconds = 30;
+		//minutes = 1;
 		score_p1 = 0;
 		score_p2 = 0;
 	}
@@ -134,6 +133,6 @@ randomize();
 	"UPPER","UPSET","URBAN","USAGE","USUAL","VALID","VALUE","VIDEO","VIRUS","VISIT",
 	"VITAL","VOICE","WASTE","WATCH","WATER","WHEEL","WHERE","WHICH","WHILE","WHITE",
 	"WHOLE","WHOSE","WOMAN","WOMEN","WORLD","WORRY","WORSE","WORST","WORTH","WOULD",
-	"WOUND","WRITE","WRONG","WROTE","YIELD","YOUNG","YOUTH")
+	"WOUND","WRITE","WRONG","WROTE","YIELD","YOUNG","YOUTH", "NOTER", "GONER", "DATES")
 }
 #endregion
