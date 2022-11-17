@@ -17,6 +17,10 @@ key_right = vk_right
 key_drop  = vk_return
 key_pick  = vk_rshift
 
+if keyboard_check_pressed(vk_up) && keyboard_check_pressed(vk_return){
+	
+}
+
 //left_limit = room_width * 0.5 + sprite_width
 //right_limit = room_width
 

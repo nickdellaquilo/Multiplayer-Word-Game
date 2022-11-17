@@ -11,12 +11,12 @@ if (room == Scores) {
 	if score_p1 > score_p2{
 		draw_text(room_width / 1.5 - 300, room_height / 2 + 30, "Player   1   WINS")
 		draw_text(room_width / 1.5 - 300, room_height / + 40, string(score_p1))
-		draw_text(room_width / 1.5 - 300, room_height / 2 + 200, "Press  SPACEBAR  to  play  again")
+		draw_text(room_width / 1.5 - 300, room_height / 2 + 200, "Press  ENTER  to  play  again")
 	} 
 	if score_p2 > score_p1{
 		draw_text(room_width / 1.5 - 300, room_height / 2 + 30, "Player   2    WINS")
 		draw_text(room_width / 1.5 - 300, room_height / + 40, string(score_p2))
-		draw_text(room_width / 1.5 - 300, room_height / 2 + 200, "Press  SPACEBAR  to  play  again")
+		draw_text(room_width / 1.5 - 300, room_height / 2 + 200, "Press  ENTER  to  play  again")
 	}
 	
 	if score_p1 == score_p2{

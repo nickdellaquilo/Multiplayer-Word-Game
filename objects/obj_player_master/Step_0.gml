@@ -60,11 +60,29 @@ if (follower != pointer_null) {
 }
 
 if (follower == pointer_null) {
-	if keyboard_check(key_pick) {
-		pick = true
+	if keyboard_check_pressed(key_drop) && bumped_into_something == false {
+		pick = false
 	}
 }
 
-if keyboard_check_released(key_pick) {
-	pick = false
+if (follower == pointer_null) {
+	if keyboard_check_pressed(key_drop) && bumped_into_something == true {
+		pick = false
+	}
 }
+
+//if keyboard_check_released(key_pick) && bumped_into_something == true {
+//	pick = false
+//}
+
+//if keyboard_check_pressed(key_pick){
+//	if bumped_into_something == true {
+//		pick = false
+//}
+//}
+
+//if keyboard_check_pressed(key_drop){
+//	if bumped_into_something == true {
+//		pick = false
+//}
+//}
